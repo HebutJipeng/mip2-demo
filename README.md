@@ -20,5 +20,5 @@
 npm run dev             # 运行
 npm run build           # 打包
 npm run lint            # 测试
-npm run fix"            # 修复es
+npm run fix             # 修复eslint
 ```
