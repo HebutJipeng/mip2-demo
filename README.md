@@ -15,3 +15,10 @@
 - mip.config.js       mip配置代码
 - package.json
 - package-lock.json
+
+```
+npm run dev             # 运行
+npm run build           # 打包
+npm run lint            # 测试
+npm run fix"            # 修复es
+```
