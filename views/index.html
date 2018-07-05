@@ -18,11 +18,33 @@
 </head>
 
 <body>
+  <mip-shell>
+    <script type="application/json">
+      {
+        "routes": [{
+          "pattern": "*",
+          "meta": {
+            "header": {
+              "show": true,
+              "xiongzhang": true,
+              "title": "佩奇闺蜜",
+              "logo": "/static/968C7BD6A2E51B26252088DD03249F73.jpg"
+            },
+            "view": {
+              "isIndex": true
+            }
+          }
+        }]
+      }
+    </script>
+  </mip-shell>
   <div>
     <h2>First MIP page</h2>
     <h2>Add MIP components here</h2>
     <mip-example></mip-example>
     <mip-me></mip-me>
+    1111
+    <a href="./peppa.html" data-type="mip" class="jumpSec">跳转 secPage</a>
   </div>
   <script src="https://c.mipcdn.com/static/v2/mip.js"></script>
   <script src="/mip-example/mip-example.js"></script>
