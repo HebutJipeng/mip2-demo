@@ -10,8 +10,8 @@
 - utils             公共utils
 - views             业务代码
 
-.eslint*            eslint相关代码
-.gitignore
-mip.config.js       mip配置代码
-package.json
-package-lock.json
+- .eslint*            eslint相关代码
+- .gitignore
+- mip.config.js       mip配置代码
+- package.json
+- package-lock.json
