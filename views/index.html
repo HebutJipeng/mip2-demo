@@ -46,9 +46,41 @@
     1111
     <a href="./peppa.html" data-type="mip" class="jumpSec">跳转 secPage</a>
   </div>
+  <button on="tap:my-lightbox.toggle" id="btn-open" role="button" tabindex="0">
+        Open lightbox
+  </button>
+
+  <mip-lightbox
+      id="my-lightbox"
+      layout="nodisplay"
+      class="mip-hidden">
+      <div class="lightbox">
+          <h1>Hello, World!</h1>
+          <p> this is the lightbox</p>
+          <span on="tap:my-lightbox.toggle" class="lightbox-close">关闭弹层</span>
+      </div>
+  </mip-lightbox>
+<button on="tap:my-lightbox2.toggle" id="btn-open" role="button" tabindex="0">
+  打开用户协议
+</button>
+
+<mip-lightbox id="my-lightbox2" layout="nodisplay" class="mip-hidden" content-scroll>
+  <div class="lightbox">
+    <span on="tap:my-lightbox2.toggle" class="lightbox-close">忽略</span>
+    <h1>Hello, World!</h1>
+    <p> this is the lightbox</p>
+    <p> this is the lightbox</p>
+    <p> this is the lightbox</p>
+    <p> this is the lightbox</p>
+    <p> this is the lightbox</p>
+    <p> this is the lightbox</p>
+    <span on="tap:my-lightbox2.toggle" class="lightbox-close">我知道了</span>
+  </div>
+</mip-lightbox>
   <script src="https://c.mipcdn.com/static/v2/mip.js"></script>
   <script src="/mip-example/mip-example.js"></script>
   <script src="/mip-me/mip-me.js"></script>
+  <script src="https://c.mipcdn.com/static/v1/mip-lightbox/mip-lightbox.js"></script>
 </body>
 
 </html>
