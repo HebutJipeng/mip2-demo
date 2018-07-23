@@ -22,3 +22,5 @@ npm run build           # 打包
 npm run lint            # 测试
 npm run fix             # 修复eslint
 ```
+
+## 如遇到js有效域问题，建议node做转发，不建议jsonp
